@@ -1,0 +1,20 @@
+{
+  "name": "usdtstaking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "vercel": "^35.2.2"
+  }
+}
